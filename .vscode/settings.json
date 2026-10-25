@@ -1,0 +1,11 @@
+{
+    // Use the project's virtual environment (where docling, pinecone, dotenv are installed).
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+
+    // Code Runner ("Run Code" button): run Python files with the venv, not the system python3.
+    "code-runner.executorMap": {
+        "python": "\"$workspaceRoot/.venv/bin/python\" -u"
+    },
+    // Run in the terminal so scripts that call input() can read what you type.
+    "code-runner.runInTerminal": true
+}

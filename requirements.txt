@@ -1,0 +1,7 @@
+# Python 3.10 on an Intel Mac: PyTorch has no newer Intel-Mac wheels (last is torch 2.2.2, which needs numpy 1.x),
+# and docling-parse 4.x is the last series with Intel-Mac wheels.
+docling==2.73.1
+docling-parse==4.7.2
+numpy<2
+pinecone==10.2.0
+python-dotenv

@@ -1,0 +1,10 @@
+# Secrets (Pinecone API key)
+.env
+
+# Python virtual environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
